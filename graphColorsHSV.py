@@ -1,10 +1,11 @@
 from matplotlib import pyplot as plt
 from matplotlib import image as img
+from mpl_toolkits.mplot3d import Axes3D
 import cv2
 import numpy as np
 from matplotlib import colors
 
-image = img.imread('./allColors1k.jpg')
+image = img.imread('./images/ikea.jpg')
 flip = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
 hsv = cv2.cvtColor(flip, cv2.COLOR_BGR2HSV)
 

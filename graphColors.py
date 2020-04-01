@@ -1,6 +1,7 @@
 from matplotlib import pyplot as plt
 from matplotlib import image as img
 from matplotlib import colors
+from mpl_toolkits.mplot3d import Axes3D
 import cv2
 import numpy as np
 
@@ -19,4 +20,3 @@ axis.set_xlabel("Red")
 axis.set_ylabel("Green")
 axis.set_zlabel("Blue")
 plt.show()
-
