@@ -4,7 +4,7 @@ from scipy.cluster.vq import kmeans
 from scipy.cluster.vq import whiten
 import pandas as pd
 
-image = img.imread('./allColors1k.jpg')
+image = img.imread('./images/allColors1k.jpg')
 
 r = []
 g = []
