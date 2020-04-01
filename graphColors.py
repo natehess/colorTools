@@ -4,8 +4,7 @@ from matplotlib import colors
 import cv2
 import numpy as np
 
-image = img.imread('./2color.bmp')
-
+image = img.imread('./images/2color.bmp')
 
 r, g, b = cv2.split(image)
 fig = plt.figure()

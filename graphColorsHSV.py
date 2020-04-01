@@ -8,7 +8,6 @@ image = img.imread('./allColors1k.jpg')
 flip = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
 hsv = cv2.cvtColor(flip, cv2.COLOR_BGR2HSV)
 
-
 h, s, v = cv2.split(hsv)
 fig = plt.figure()
 axis = fig.add_subplot(1, 1, 1, projection="3d")
