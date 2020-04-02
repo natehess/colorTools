@@ -26,7 +26,6 @@ def mandelbrot(x, y):
         c = c * c + c0
     return (0, 0, 0)
 
-
 # creating the new image in RGB mode
 img = Image.new('RGB', (WIDTH, int(WIDTH / 2)))
 pixels = img.load()
@@ -39,6 +38,6 @@ for x in range(img.size[0]):
         pixels[x, y] = mandelbrot((x - (0.75 * WIDTH)) / (WIDTH / 4),
                                   (y - (WIDTH / 4)) / (WIDTH / 4))
 
-    # to display the created fractal after
+# to display the created fractal after
 # completing the given number of iterations
 img.show()
