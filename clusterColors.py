@@ -5,7 +5,7 @@ from scipy.cluster.vq import whiten
 from PIL import Image, ExifTags
 import pandas as pd
 
-file = './images/realMtn3.jpg'
+file = './images/realMtn2.jpg'
 
 image = Image.open(file)
 imageData = img.imread(file)

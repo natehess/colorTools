@@ -1,9 +1,9 @@
 from matplotlib import pyplot as plt
 from matplotlib import image as img
+from matplotlib import colors
 from mpl_toolkits.mplot3d import Axes3D
 import cv2
 import numpy as np
-from matplotlib import colors
 
 image = img.imread('./images/ikea.jpg')
 flip = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
